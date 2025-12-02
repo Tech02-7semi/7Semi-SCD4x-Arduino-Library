@@ -16,13 +16,23 @@ This Arduino library provides support for the 7Semi-SCD4x (SCD40/SCD41) sensor m
 
 ## Getting Started
  
-  ### 1. Library Installation
- 
-      - Download or clone the repository.
+### 📦 Manual Installation (ZIP File)
 
-      - Copy the files `7semi_scd4x.cpp` and `7semi_scd4x.h` into a folder named `7semi_HMC6343` under your Arduino `libraries/` directory.
+If you have downloaded the library as a ZIP file:
 
-      - Restart the Arduino IDE.
+1. Open the Arduino IDE.
+2. Go to:
+   - **IDE 1.x:** `Sketch > Include Library > Add .ZIP Library…`
+   - **IDE 2.x:** `Sketch > Include Library > Add .ZIP Library…` (same menu)
+3. Select the downloaded file: 7semi_scd4x.zip
+4. Arduino IDE will automatically install the library into your `libraries/` folder.
+5. After installation, include the library in your sketch:
+
+```cpp
+#include <7semi_scd4x.h>
+```
+   
+
 ---
 
 ### 2. Wiring
